@@ -1,0 +1,290 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";  
+}
+
+p{
+    color:#575757;
+}
+
+body{
+    font-family: "Montserrat";   
+    text-align: center;
+}
+ 
+.container-fluid{
+    padding: 5% 15% 0%;
+}
+.colored-section{
+    background-color: #06AFD4;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+.line{
+    color: #575757;
+    width: 50%;
+}
+
+/* heading */
+
+.section-heading{
+    font-weight:bolder;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 2rem;
+
+    /* Bootstrap add some padding - we can eliminate */
+}
+
+.navbar-brand{
+    width: 15%;
+    height: 15%;
+
+}
+.nav-item{
+    padding: 0px 12px;
+
+}
+
+.nav-link{
+    font-family: "Montserrat";
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: black;    
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #575757
+    }
+
+#navbarHamburger{
+    z-index: 2;
+}
+
+/* Title */
+
+#title {
+    position: relative;
+    overflow: hidden;
+
+}
+/* You could use :after - it doesn't really matter */
+#title:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.7;
+    background-image: url('https://static.digitalchargingsolutions.com/documents/150230/309693/Hero+image.jpg/9d74f646-869f-e043-2c02-c8c7ab878b99?t=1594299328392');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+#title .container-fluid{
+    padding: 3% 7% 3%;
+    text-align: left;
+}
+/* hierarchical selector (give space) parent_child*/
+
+.big-title{
+    font-family: "Ubuntu";
+    font-size: 7rem;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0% 30%
+}
+.big-intro{
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-top: 270px;
+    padding-right: 20px;
+}
+@media (max-width:992px){
+    .big-title{
+        font-size: 3rem;
+    }
+    .big-intro{
+        font-size: 1.5rem;
+    }
+    .products-style{
+        text-align: center;
+    }
+}
+
+/* Features section */
+#features{
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    padding: 4.5% 4.5% 0%;
+}
+.feature-text{
+    font-weight: bolder;
+    font-size: 1.45rem;
+}
+
+.icon-feature{
+    color: #06AFD4;
+    margin-bottom: 1rem;
+}
+.icon-feature:hover {
+    color: #A8D161;
+}
+
+
+/* Products section */
+#products {
+    padding-bottom: 5%;
+    
+}
+.products-style{
+    text-align: left;
+    padding: 6% 3%;
+}
+.products-list{
+    margin-left: 6%;
+}
+.phone{
+    width: 60%;
+    margin: 12% 0% 0% 5%;
+}
+@media (max-width:992px){
+    .products-style{
+        text-align: center;
+        padding-top: 6%;
+    }
+    .products-list{
+        margin-left: 0%;
+    }
+}
+
+/* Pricing */
+#pricing{
+    padding: 5% 10%;
+
+}
+.container{
+    border-radius: 50px;
+    /* background: linear-gradient(180deg, #DDE3E6 5.73%, rgba(221, 227, 230, 0) 100%);  */
+    border: 1px solid #8f8f8f;
+    box-shadow: 0 10px 6px -6px #575757; 
+
+
+    
+}
+
+.card-top{
+    margin-top: 25px;
+    color: black;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+.price-text{
+    color: black;
+    font-weight:bolder;
+    font-size: 2rem;
+    line-height: 1.5;
+    
+}
+.price-option{
+    font-weight:bold
+}
+.rad{
+    border-radius: 20px;
+    border-color: #575757;
+}
+.rad:hover{
+    background-color: #575757;
+}
+.price1{
+    margin: 80px 0px 50px;
+}
+.price2{
+    margin: 40px 0px 50px;
+}
+.price3{
+    margin: 265px 0px 0px;
+    background-color: #575757;
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+/* Testimonials section */
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color:#575757;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: #575757;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-family: "Montserrat";
+    font-weight:bolder;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+/* Press section */
+#press{
+    padding-top: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+.press-logo1{
+    width: 10%;
+    margin: 20px 20px 30px;
+}
+.press-logo2{
+    width: 20%;
+    margin: 20px 20px 30px;
+}
+.press-logo3{
+    width: 22%;
+    margin: 20px 20px 30px;
+}
+
+/* Footer */
+
+.icon-end{
+    margin: 0% 10px 15px;
+}
+.icon-end:hover {
+    color: #06AFD4;
+}
+.icon-footer{
+    color: black;
+}

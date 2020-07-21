@@ -1,0 +1,45 @@
+body{
+    font-family: "Montserrat"; 
+    color: #575757;  
+}
+.container-fluid{
+    padding: 2% 35%;
+}
+
+
+.title{
+    font-weight: bold;
+    color: #CECECE;
+    margin: 5% 10% 2%;
+}
+.button{
+    margin-top: 40px;;
+    text-align: center;
+}
+.btn{
+    border-radius: 20px;
+    background-color: #575757;
+}
+.form-style{
+    background: linear-gradient(180deg, #DADADA 0%, #FFFFFF 24.48%);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.custom-checkbox{
+    margin-top: 50px;
+}
+
+.button {
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  
+  .button:hover {
+    transition: 1s ease-in-out;
+    border-radius: 20px;
+    background: #CECECE
+  }
+  
+  

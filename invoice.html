@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FleetShop</title>
+   <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style_invoice.css">
+
+  <!-- Icon -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link data-senna-track="temporary" href="https://static.digitalchargingsolutions.com/o/com.dcsweb.liferay.theme/images/favicon.ico" rel="Shortcut Icon">
+
+  <!-- Javasript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="title">Organization Information</h1>
+    <section id="organization">
+        <form>
+            <div class="container-fluid">
+    
+    
+                <div class="form-group">
+                    <label for="Company">Company</label>
+                    <input type="text" class="form-control form-style" id="Company" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="ContactEmail">Contact Email</label>
+                    <input type="email" class="form-control form-style" id="ContactEmail" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="ContactPhone">Contact Phone</label>
+                    <input type="text" class="form-control form-style" id="ContactPhone" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="VAT">VAT Number</label>
+                    <input type="text" class="form-control form-style" id="VAT" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="N°Contracts">N° Contracts</label>
+                    <input type="text" class="form-control form-style" id="N°Contracts" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="Title">Title</label>
+                        <select class="form-control form-style" id="Title">
+                                <option>Tariff 1</option>
+                                <option>Tariff 2</option>
+                                <option>Tariff 3</option>
+                        </select>
+                </div>
+               
+                <div class="button">
+                    <a type="submit" class="btn btn-block btn-dark" href=#invoice >Continue</a>
+                </div>
+                
+            </div>
+        </form>
+    </section>
+    
+    <section id="invoice">
+        <h1 class="title">Invoice Information</h1>
+        <form>
+            <div class="container-fluid">
+    
+                <div class="form-group">
+                    <label for="Title">Title</label>
+                        <select class="form-control form-style" id="Title">
+                                <option>Mr</option>
+                                <option>Ms</option>
+                        </select>
+                </div>
+    
+                <div class="form-group">
+                    <label class="form-control-label" for="FirstName">First Name</label>
+                    <input type="text" class="form-control form-style" id="FirstName" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="LastName">Last Name</label>
+                    <input type="text" class="form-control form-style" id="LastName" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="text" class="form-control form-style" id="Email" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="AddressLine">Address Line</label>
+                    <input type="text" class="form-control form-style" id="AddressLine" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="City">City</label>
+                    <input type="text" class="form-control form-style" id="City" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="ZIP-PC">ZIP / Post Code</label>
+                    <input type="text" class="form-control form-style" id="ZIP-PC" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="Country">Country</label>
+                    <input type="text" class="form-control form-style" id="Country" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="CostCenter">Cost Center / Department</label>
+                    <input type="text" class="form-control form-style" id="CostCenter" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label class="custom-control custom-checkbox">
+                        <input type="checkbox" class="form-check-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">I have read and accept the terms and conditions</span>
+                    </label>    
+                </div>
+    
+    
+                <div class="button">
+                    <a type="submit" class="btn btn-block btn-dark button" href="index.html">Continue</a>  
+                </div>
+           
+            </div>
+        </form>
+                            
+        </div>
+    </form>
+    </section>
+
+    <script src="js/fleet-shop.js"></script>
+    
+</body>
+
+</html>
